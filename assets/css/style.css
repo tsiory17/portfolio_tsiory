@@ -1,0 +1,39 @@
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.skill-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f0f0f0; /* Default background */
+  color: #fff; /* Default text color */
+  padding: 8px 12px; /* Reduced padding for less space */
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  max-width: fit-content;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-logo {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%; /* Makes the logo circular */
+  background-color: #fff; /* Add a white background for contrast */
+}
+
+/* Adjusting the padding/margin of the programming skills to align better */
+.skills-wrapper > .skill-badge {
+  margin-right: 5px; /* Reduced margin */
+}
