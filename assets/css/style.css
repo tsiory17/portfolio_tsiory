@@ -37,3 +37,32 @@
 .skills-wrapper > .skill-badge {
   margin-right: 5px; /* Reduced margin */
 }
+
+
+.gridder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px; 
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.img-place {
+  width: 100%; 
+  height: auto;
+  overflow: hidden; 
+  position: relative; 
+}
+
+
+.img-place img {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
+}
